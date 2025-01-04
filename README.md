@@ -17,3 +17,4 @@ El repositorio es una demostración con fines educativos y no debe ser usado par
 Para usar la herramienta oline solo registrate : 
 <br>
 https://bszdoxing.foroactivo.com/
+![image](https://github.com/user-attachments/assets/9af1f351-ba64-4f4b-9767-0abe63d8abee)
