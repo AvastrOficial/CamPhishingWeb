@@ -1,5 +1,7 @@
 # CamPhishingWeb
 
+Informacion : https://medium.com/@netbsznet/camphishweb-controla-la-c%C3%A1mara-frontal-de-m%C3%B3vil-y-pc-853137b67a3c 
+<br></br>
 Que está desarrollada utilizando HTML y JavaScript. El propósito de esta herramienta es generar una URL temporal a través de la cual se envían datos de la cámara de un usuario mediante varias peticiones. Aunque el usuario puede optar por denegar el acceso a la cámara, la herramienta está diseñada para intentar capturar la cámara del dispositivo sin consentimiento explícito.
 <br>
 # Funcionalidad
