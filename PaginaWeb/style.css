@@ -1,0 +1,489 @@
+   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ddd; /* Fondo general */
+  color: #333; /* Color de texto */
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Panel izquierdo */
+.left-panel {
+  width: 20%;
+  background-color: #444; /* Fondo del panel izquierdo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  color: #fff; /* Color de texto blanco */
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Para que sea circular */
+  background-color: #ddd;
+  background-size: cover; /* Ajustar la imagen dentro del contenedor */
+  background-position: center; /* Centrar la imagen */
+  margin-bottom: 20px;
+  border: 2px solid #333; /* Borde visible */
+}
+
+
+.info-line1, .info-line2 {
+  width: 80%;
+  height: 20px;
+  background-color: #333;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+}
+
+
+/* Panel derecho */
+.right-panel {
+  width: 80%;
+  padding: 20px;
+  background-color: #fff; /* Fondo del panel derecho */
+  color: #333; /* Color de texto del panel derecho */
+}
+
+.top-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.top-inputs input, 
+.right-panel input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd; /* Borde de inputs */
+  border-radius: 5px;
+  background-color: #fff; /* Fondo blanco */
+  color: #333; /* Texto oscuro */
+}
+
+.right-panel input {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  padding: 10px 20px; /* Ajuste de tamaño, más delgado */
+  border: none;
+  background-color: #ddd; /* Fondo de los botones */
+  color: #fff; /* Texto blanco */
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center; /* Centra el texto */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Suaviza la transición */
+}
+
+.buttons button:hover {
+  background-color: #333; /* Fondo al pasar el cursor */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Sombra más fuerte en hover */
+}
+
+
+
+
+/* Modal de Olvery */
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-content button {
+  width: 100%;
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #333;
+}
+        
+        
+        * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ddd; /* Fondo general */
+  color: #333; /* Color de texto */
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+/* Panel izquierdo */
+.left-panel {
+  width: 20%;
+  background-color: #444; /* Fondo del panel izquierdo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  color: #fff; /* Color de texto blanco */
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%; /* Para que sea circular */
+  background-color: #ddd;
+  background-size: cover; /* Ajustar la imagen dentro del contenedor */
+  background-position: center; /* Centrar la imagen */
+  margin-bottom: 20px;
+  border: 2px solid #333; /* Borde visible */
+}
+
+
+.info-line1, .info-line2 {
+  width: 80%;
+  height: 20px;
+  background-color: #333;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+}
+
+
+/* Panel derecho */
+.right-panel {
+  width: 80%;
+  padding: 20px;
+  background-color: #fff; /* Fondo del panel derecho */
+  color: #333; /* Color de texto del panel derecho */
+}
+
+.top-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.top-inputs input, 
+.right-panel input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd; /* Borde de inputs */
+  border-radius: 5px;
+  background-color: #fff; /* Fondo blanco */
+  color: #333; /* Texto oscuro */
+}
+
+.right-panel input {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background-color: #444; /* Fondo de los botones */
+  color: #fff; /* Texto blanco */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #333; /* Fondo al pasar el cursor */
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  border: 1px solid #ddd; /* Borde del textarea */
+  border-radius: 5px;
+  background-color: #fff; /* Fondo blanco */
+  color: #333; /* Texto oscuro */
+}
+
+
+
+/* Modal de Olvery */
+.modal {
+  display: none; /* Oculto por defecto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-content button {
+  width: 100%;
+  padding: 10px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #333;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #444; /* Fondo oscuro para el encabezado */
+  color: white; /* Color blanco para el texto del encabezado */
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+
+
+
+
+
+
+   /* Estilo para la galería */
+.gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 20%; /* Hace el borde circular */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Transiciones suaves */
+}
+
+/* Efecto al pasar el cursor sobre la imagen */
+.gallery img:hover {
+    box-shadow: 0 20px 8px rgba(51, 51, 51, 0.5), 
+                0 20px 4px rgba(68, 68, 68, 0.5), 
+                0 10px 2px rgba(221, 221, 221, 0.5); /* Sombra en colores #333, #444 y #ddd */
+    transform: scale(1.05); /* Pequeño aumento de tamaño */
+}
+
+/* Visualizador de imágenes */
+.visualizador-imagen-galeria {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    justify-content: center;
+    align-items: center;
+}
+
+.visualizador-imagen-galeria-content {
+    position: relative;
+    text-align: center;
+}
+
+.visualizador-imagen-galeria img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px; /* Pequeño redondeo para las imágenes ampliadas */
+}
+
+.visualizador-imagen-galeria-url {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+  
+  
+  
+    .resultado-url-recortador {
+            margin-top: 15px;
+            font-size: 1rem;
+        }
+
+        .resultado-url-recortador a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .resultado-url-recortador a:hover {
+            text-decoration: underline;
+        }
+
+        .error {
+            color: red;
+        }
+
+ .co-tenedor {
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 20px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: auto;
+            width: 100%;
+        }
+
+ /* Estilo del separador */
+        .separador {
+            width: 80%; /* Ajusta el ancho del separador */
+            height: 2px; /* Ajusta el grosor */
+            background-color: white;
+            margin: 20px auto; /* Centra el separador con margen */
+            border: none;
+        }
+  
+   .informacion-camhackbsz {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f9;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+        }
+
+        /* Título del contenedor */
+        .informacion-camhackbsz h3 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        /* Estilo del índice */
+        .informacion-camhackbsz .indice {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+
+        /* Estilo del sub-índice */
+        .informacion-camhackbsz .subindice {
+            font-size: 1.1rem;
+            margin-left: 20px;
+            margin-bottom: 15px;
+            color: #666;
+        }
+
+        /* Estilo del cuerpo (body) */
+        .informacion-camhackbsz .body {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        /* Estilo de la firma */
+        .informacion-camhackbsz .firma {
+            font-size: 1rem;
+            font-style: italic;
+            color: #555;
+            text-align: right;
+        }
