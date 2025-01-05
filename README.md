@@ -22,5 +22,5 @@ https://bszdoxing.foroactivo.com/
 <br></br>
 ![image](https://github.com/user-attachments/assets/9af1f351-ba64-4f4b-9767-0abe63d8abee)
 <br></br>
-TUTORIAL OLINE SIN SABER PROGRAMAR : 
+Cómo Crear tu Propio Proyecto Online Sin Saber Programar :
 https://www.flexclip.com/es/share/7859396bbb85b6be443505ff3da5f802e7ff5cb.html 
